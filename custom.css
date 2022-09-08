@@ -39,5 +39,9 @@
             transform: scale(10);
         }
     }
+
+    span.dark-ripple {
+        @apply bg-black dark:bg-white;
+    }
 }
 
