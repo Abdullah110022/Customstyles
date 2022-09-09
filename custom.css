@@ -74,7 +74,7 @@
         @apply justify-end;
     }
 
-    .bt-xs, .bt-s, .bt-m, .bt-l, .bt-xl, .bt-fluid {
+    .bt-xs, .bt-s, .bt-m, .bt-l, .bt-xl, .bt-fluid, .bt-gen {
         box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.3);
         @apply h-12 rounded-lg;
     }
@@ -101,6 +101,10 @@
 
     .bt-fluid {
         @apply w-full;
+    }
+
+    .bt-gen {
+        @apply bt-xs sm:bt-s md:bt-m lg:bt-l xl:bt-xl;
     }
 
     .ripple-effect {
