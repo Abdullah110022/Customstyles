@@ -71,5 +71,118 @@
     .jus-e-item-c, .jus-e-item-e, .jus-e-item-s {
         @apply justify-end;
     }
+
+    .bt-xs, .bt-s, .bt-m, .bt-l, .bt-xl, .bt-fluid {
+        box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.3);
+        @apply h-12 rounded-lg;
+    }
+
+    .bt-xs {
+        @apply w-32;
+    }
+
+    .bt-s {
+        @apply w-40;
+    }
+
+    .bt-m {
+        @apply w-48;
+    }
+
+    .bt-l {
+        @apply w-64;
+    }
+
+    .bt-xl {
+        @apply w-80;
+    }
+
+    .bt-fluid {
+        @apply w-full;
+    }
+
+    .ripple-effect {
+        @apply overflow-hidden relative;
+    }
+
+    .bt-success, .bt-danger, .bt-info, .bt-orange, .bt-amber, .bt-green, .bt-emerald, .bt-teal, .bt-primary, .bt-sky, .bt-blue, .bt-fuchsia, .bt-purple, .bt-violet, .bt-pink, .bt-rose, .bt-slate, .bt-secondary, .bt-neutral {
+        @apply text-white;
+    }
+
+    .bt-success {
+        @apply hover:bg-lime-600 bg-lime-500
+    }
+
+    .bt-danger {
+        @apply hover:bg-red-600 bg-red-500
+    }
+
+    .bt-info {
+        @apply hover:bg-yellow-600 bg-yellow-500
+    }
+
+    .bt-orange {
+        @apply hover:bg-orange-600 bg-amber-500
+    }
+
+    .bt-amber {
+        @apply hover:bg-amber-600 bg-amber-500
+    }
+
+    .bt-green {
+        @apply hover:bg-green-600 bg-green-500
+    }
+
+    .bt-emerald {
+        @apply hover:bg-emerald-600 bg-emerald-500
+    }
+
+    .bt-teal {
+        @apply hover:bg-teal-600 bg-teal-500
+    }
+
+    .bt-primary {
+        @apply hover:bg-cyan-600 bg-cyan-500
+    }
+
+    .bt-sky {
+        @apply hover:bg-sky-600 bg-sky-500
+    }
+
+    .bt-blue {
+        @apply hover:bg-blue-600 bg-blue-500
+    }
+
+    .bt-fuchsia {
+        @apply hover:bg-fuchsia-600 bg-fuchsia-500
+    }
+
+    .bt-purple {
+        @apply hover:bg-purple-600 bg-purple-500
+    }
+
+    .bt-violet {
+        @apply hover:bg-violet-600 bg-violet-500
+    }
+
+    .bt-pink {
+        @apply hover:bg-pink-600 bg-pink-500
+    }
+
+    .bt-rose {
+        @apply hover:bg-rose-600 bg-rose-500
+    }
+
+    .bt-slate {
+        @apply hover:bg-slate-600 bg-slate-500
+    }
+
+    .bt-secondary {
+        @apply hover:bg-gray-600 bg-gray-500
+    }
+
+    .bt-neutral {
+        @apply hover:bg-neutral-600 bg-neutral-500
+    }
 }
 

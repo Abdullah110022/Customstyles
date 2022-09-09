@@ -2,15 +2,15 @@
 
 Contains custom CSS styles and JS styles needed for the project.
 
-#CSS
+## CSS
 
 | Classes       | Styles           					  |
 |:-------------:|:--------------------------------------------------------------------------------:|
-| ripple  | to produce ripple effect on choosing dark mode |
-| dark-ripple  | to produce ripple effect on a button or enclosed container on click |
+| dark-ripple  | to produce ripple effect on choosing dark mode |
+| ripple  | to produce ripple effect on a button or enclosed container on click |
 | jus-(s/c/e)-item-(s/c/e)  | flex, justify-content (start/center/end), align-items (start/center/end) |
 
-#JS
+## JS
 
 | Functions     | what does it do? | Arguments |
 |:-------------:|:-----------------------------------------:|:--------------------------------|
