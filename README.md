@@ -10,7 +10,7 @@ Contains custom CSS styles and JS styles needed for the project.
 | ripple  | to produce ripple effect on a button or enclosed container on click |
 | jus-(s/c/e)-item-(s/c/e)  | flex, justify-content (start/center/end), align-items (start/center/end) |
 | bt-(xs/s/m/l/xl/fluid) | adds styling to button where fluid take whole width of the container|
-| bt-color | color can be success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral) |
+| bt-color | color can be success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral/black) |
 
 ## JS
 

@@ -32,11 +32,13 @@
         from {
             opacity: 1;
             transform: scale(0);
+            background: rgba(0,0,0,0.3)
         }
 
         to {
             opacity: 0;
             transform: scale(10);
+            background: rgba(0,0,0,0)
         }
     }
 
@@ -105,7 +107,7 @@
         @apply overflow-hidden relative;
     }
 
-    .bt-success, .bt-danger, .bt-info, .bt-orange, .bt-amber, .bt-green, .bt-emerald, .bt-teal, .bt-primary, .bt-sky, .bt-blue, .bt-fuchsia, .bt-purple, .bt-violet, .bt-pink, .bt-rose, .bt-slate, .bt-secondary, .bt-neutral {
+    .bt-success, .bt-danger, .bt-info, .bt-orange, .bt-amber, .bt-green, .bt-emerald, .bt-teal, .bt-primary, .bt-sky, .bt-blue, .bt-fuchsia, .bt-purple, .bt-violet, .bt-pink, .bt-rose, .bt-slate, .bt-secondary, .bt-neutral, .bt-black {
         @apply text-white;
     }
 
@@ -183,6 +185,10 @@
 
     .bt-neutral {
         @apply hover:bg-neutral-600 bg-neutral-500
+    }
+
+    .bt-black {
+        @apply hover:bg-slate-800 bg-slate-900
     }
 }
 
