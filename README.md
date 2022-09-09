@@ -9,7 +9,7 @@ Contains custom CSS styles and JS styles needed for the project.
 | dark-ripple  | to produce ripple effect on choosing dark mode |
 | ripple  | to produce ripple effect on a button or enclosed container on click |
 | jus-(s/c/e)-item-(s/c/e)  | flex, justify-content (start/center/end), align-items (start/center/end) |
-| bt-(xs/s/m/l/xl/fluid/gen) | adds size styling to button * fluid take whole width of the container * gen changes width depending upong the screen width|
+| bt-(xs/s/m/l/xl/fluid/gen) | <ul><li>adds size styling to button</li><li>fluid take whole width of the container</li><li>gen changes width depending upong the screen width</li></ul>|
 | bt-color | color can be (success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral/black) |
 
 ## JS
