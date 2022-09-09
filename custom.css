@@ -43,5 +43,21 @@
     span.dark-ripple {
         @apply bg-black dark:bg-white;
     }
+
+    .jus-c-item-c, .jus-c-item-s, .jus-c-item-e {
+        @apply flex justify-center;
+    }
+
+    .jus-c-item-c {
+        @apply items-center;
+    }
+
+    .jus-c-item-e {
+        @apply items-end;
+    }
+
+    .jus-c-item-s {
+        @apply items-start;
+    }
 }
 
