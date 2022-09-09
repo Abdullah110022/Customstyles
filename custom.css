@@ -44,8 +44,16 @@
         @apply bg-black dark:bg-white;
     }
 
+    .jus-c-item-c, .jus-c-item-s, .jus-c-item-e, .jus-s-item-c, .jus-e-item-c {
+        @apply flex ;
+    }
+
+    .jus-s-item-c, .jus-e-item-c{
+        @apply items-center;
+    }
+
     .jus-c-item-c, .jus-c-item-s, .jus-c-item-e {
-        @apply flex justify-center;
+        @apply justify-center;
     }
 
     .jus-c-item-c {
@@ -58,6 +66,14 @@
 
     .jus-c-item-s {
         @apply items-start;
+    }
+
+    .jus-s-item-c {
+        @apply justify-start;
+    }
+
+    .jus-e-item-c {
+        @apply justify-end;
     }
 }
 
