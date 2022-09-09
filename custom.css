@@ -44,11 +44,11 @@
         @apply bg-black dark:bg-white;
     }
 
-    .jus-c-item-c, .jus-c-item-s, .jus-c-item-e, .jus-s-item-c, .jus-e-item-c {
+    .jus-c-item-c, .jus-c-item-s, .jus-c-item-e, .jus-s-item-c, .jus-e-item-c, .jus-s-item-s, .jus-s-item-e, .jus-e-item-s, .jus-e-item-e {
         @apply flex ;
     }
 
-    .jus-s-item-c, .jus-e-item-c{
+    .jus-s-item-c, .jus-e-item-c, .jus-c-item-c{
         @apply items-center;
     }
 
@@ -56,23 +56,19 @@
         @apply justify-center;
     }
 
-    .jus-c-item-c {
-        @apply items-center;
-    }
-
-    .jus-c-item-e {
+    .jus-c-item-e, .jus-s-item-e, .jus-e-item-e {
         @apply items-end;
     }
 
-    .jus-c-item-s {
+    .jus-c-item-s, .jus-s-item-s, .jus-e-item-s {
         @apply items-start;
     }
 
-    .jus-s-item-c {
+    .jus-s-item-c, .jus-s-item-e, .jus-s-item-s {
         @apply justify-start;
     }
 
-    .jus-e-item-c {
+    .jus-e-item-c, .jus-e-item-e, .jus-e-item-s {
         @apply justify-end;
     }
 }
