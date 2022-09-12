@@ -13,8 +13,13 @@ const ripple = (ele, clas = "ripple", endWait = true, hidetime = 500) =>
     console.log(ele.tagName);
     let ripple = document.createElement("span");
     ripple.classList.add(clas);
-    let x = e.clientX - (e.target.offsetLeft - window.scrollX);
-    let y = e.clientY - (e.target.offsetTop - window.scrollY);
+    let target = e.target;
+    if (e.target.tagName == "SPAN")
+    {
+      target = e.target.parentElement
+    }
+    let x = e.clientX - (target.offsetLeft - window.scrollX);
+    let y = e.clientY - (target.offsetTop - window.scrollY);
     ripple.style.left = `${x}px`;
     ripple.style.top = `${y}px`;
     ele.appendChild(ripple);
