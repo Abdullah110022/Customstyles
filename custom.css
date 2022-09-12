@@ -74,125 +74,137 @@
         @apply justify-end;
     }
 
-    .bt-xs, .bt-s, .bt-m, .bt-l, .bt-xl, .bt-fluid, .bt-gen {
+    .btn-xs, .btn-s, .btn-m, .btn-l, .btn-xl, .btn-fluid, .btn-gen {
         box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.3);
-        @apply h-12 rounded-lg;
+        @apply h-12 rounded-lg cursor-pointer;
     }
 
-    .bt-xs {
+    .btn-xs {
         @apply w-32;
     }
 
-    .bt-s {
+    .btn-s {
         @apply w-40;
     }
 
-    .bt-m {
+    .btn-m {
         @apply w-48;
     }
 
-    .bt-l {
+    .btn-l {
         @apply w-64;
     }
 
-    .bt-xl {
+    .btn-xl {
         @apply w-80;
     }
 
-    .bt-fluid {
+    .btn-fluid {
         @apply w-full;
     }
 
-    .bt-gen {
-        @apply bt-xs sm:bt-s md:bt-m lg:bt-l xl:bt-xl;
+    .btn-gen {
+        @apply btn-xs sm:btn-s md:btn-m lg:btn-l xl:btn-xl;
     }
 
     .ripple-effect {
         @apply overflow-hidden relative;
     }
 
-    .bt-success, .bt-danger, .bt-info, .bt-orange, .bt-amber, .bt-green, .bt-emerald, .bt-teal, .bt-primary, .bt-sky, .bt-blue, .bt-fuchsia, .bt-purple, .bt-violet, .bt-pink, .bt-rose, .bt-slate, .bt-secondary, .bt-neutral, .bt-black {
-        @apply text-white;
+    .btn-success, .btn-danger, .btn-info, .btn-orange, .btn-amber, .btn-green, .btn-emerald, .btn-teal, .btn-primary, .btn-sky, .btn-blue, .btn-fuchsia, .btn-purple, .btn-violet, .btn-pink, .btn-rose, .btn-slate, .btn-secondary, .btn-neutral, .btn-black {
+        @apply text-white cursor-pointer;
     }
 
-    .bt-success {
+    .btn-success {
         @apply hover:bg-lime-600 bg-lime-500
     }
 
-    .bt-danger {
+    .btn-danger {
         @apply hover:bg-red-600 bg-red-500
     }
 
-    .bt-info {
+    .btn-info {
         @apply hover:bg-yellow-600 bg-yellow-500
     }
 
-    .bt-orange {
+    .btn-orange {
         @apply hover:bg-orange-600 bg-amber-500
     }
 
-    .bt-amber {
+    .btn-amber {
         @apply hover:bg-amber-600 bg-amber-500
     }
 
-    .bt-green {
+    .btn-green {
         @apply hover:bg-green-600 bg-green-500
     }
 
-    .bt-emerald {
+    .btn-emerald {
         @apply hover:bg-emerald-600 bg-emerald-500
     }
 
-    .bt-teal {
+    .btn-teal {
         @apply hover:bg-teal-600 bg-teal-500
     }
 
-    .bt-primary {
+    .btn-primary {
         @apply hover:bg-cyan-600 bg-cyan-500
     }
 
-    .bt-sky {
+    .btn-sky {
         @apply hover:bg-sky-600 bg-sky-500
     }
 
-    .bt-blue {
+    .btn-blue {
         @apply hover:bg-blue-600 bg-blue-500
     }
 
-    .bt-fuchsia {
+    .btn-fuchsia {
         @apply hover:bg-fuchsia-600 bg-fuchsia-500
     }
 
-    .bt-purple {
+    .btn-purple {
         @apply hover:bg-purple-600 bg-purple-500
     }
 
-    .bt-violet {
+    .btn-violet {
         @apply hover:bg-violet-600 bg-violet-500
     }
 
-    .bt-pink {
+    .btn-pink {
         @apply hover:bg-pink-600 bg-pink-500
     }
 
-    .bt-rose {
+    .btn-rose {
         @apply hover:bg-rose-600 bg-rose-500
     }
 
-    .bt-slate {
+    .btn-slate {
         @apply hover:bg-slate-600 bg-slate-500
     }
 
-    .bt-secondary {
+    .btn-secondary {
         @apply hover:bg-gray-600 bg-gray-500
     }
 
-    .bt-neutral {
+    .btn-neutral {
         @apply hover:bg-neutral-600 bg-neutral-500
     }
 
-    .bt-black {
+    .btn-black {
         @apply hover:bg-slate-600 bg-slate-900
+    }
+
+    .box-shadow-eq-sm {
+        box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .box-shadow-eq-md {
+        box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .box-shadow-eq-lg {
+        box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.3);
     }
 }
 
