@@ -11,6 +11,7 @@ Contains custom CSS styles and JS styles needed for the project.
 | jus-(s/c/e)-item-(s/c/e)  | flex, justify-content (start/center/end), align-items (start/center/end) |
 | bt-(xs/s/m/l/xl/fluid/gen) | <ul><li>adds size styling to button</li><li>fluid take whole width of the container</li><li>gen changes width depending upong the screen width</li></ul>|
 | bt-color | color can be (success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral/black) |
+| box-shadow-eq-(sm/md/lg) | adds shadow to the container without x and y offset |
 
 ## JS
 
