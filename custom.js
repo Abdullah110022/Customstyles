@@ -5,11 +5,12 @@
 //        => endwait - flag to wait for the animation to end or not
 const ripple = (ele, clas = "ripple", endWait = true, hidetime = 500) =>
 {
-  ele.onclick = function (e) {
+  ele.onmousedown = function (e) {
     if (ele.parentElement.querySelector(`span.${clas}`) != null && endWait )
     {
       return;
     }
+    console.log(ele.tagName);
     let ripple = document.createElement("span");
     ripple.classList.add(clas);
     let x = e.clientX - (e.target.offsetLeft - window.scrollX);
