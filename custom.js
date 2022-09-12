@@ -29,5 +29,33 @@ const ripple = (ele, clas = "ripple", endWait = true, hidetime = 500) =>
   };
 }
 
-export {ripple}
+// Adds placeholder to the div, div must contain only input field with data-controller = 'placeholder'
+// Input field must contain a name so that placeholder is applied with same html as that of name of input
+const addPlaceholder = (ele) =>
+{
+  let placeholder = document.createElement("span");
+  let inpTag = ele.querySelector("input");
+  placeholder.classList.add(inpTag.value == '' ? "blur-placeholder" : "focus-placeholder");
+  let inpName = ele.querySelector("input").name;
+  placeholder.innerHTML = `${inpName.charAt(0).toUpperCase() + inpName.slice(1)}`;
+  inpTag.onfocus=function(){
+    let span = inpTag.parentElement.querySelector("span");
+    span.classList.remove("blur-placeholder");
+    span.classList.add("focus-placeholder");
+  }
+  inpTag.onblur=function(){
+    if (inpTag.value == '')
+    {
+      let span = inpTag.parentElement.querySelector("span");
+      span.classList.remove("focus-placeholder");
+      span.classList.add("blur-placeholder");
+    }
+  }
+  placeholder.onclick=function(){
+    this.parentElement.querySelector("input").focus();
+  }
+  ele.appendChild(placeholder);
+}
+
+export {ripple, addPlaceholder}
 

@@ -362,5 +362,97 @@
     .bg-neutral {
         @apply bg-neutral-500
     }
+
+    .bor-success {
+        @apply border-lime-500
+    }
+
+    .bor-danger {
+        @apply border-red-500
+    }
+
+    .bor-info {
+        @apply border-yellow-500
+    }
+
+    .bor-orange {
+        @apply border-amber-500
+    }
+
+    .bor-amber {
+        @apply border-amber-500
+    }
+
+    .bor-green {
+        @apply border-green-500
+    }
+
+    .bor-emerald {
+        @apply border-emerald-500
+    }
+
+    .bor-teal {
+        @apply border-teal-500
+    }
+
+    .bor-primary {
+        @apply border-cyan-500
+    }
+
+    .bor-sky {
+        @apply border-sky-500
+    }
+
+    .bor-blue {
+        @apply border-blue-500
+    }
+
+    .bor-fuchsia {
+        @apply border-fuchsia-500
+    }
+
+    .bor-purple {
+        @apply border-purple-500
+    }
+
+    .bor-violet {
+        @apply border-violet-500
+    }
+
+    .bor-pink {
+        @apply border-pink-500
+    }
+
+    .bor-rose {
+        @apply border-rose-500
+    }
+
+    .bor-slate {
+        @apply border-slate-500
+    }
+
+    .bor-secondary {
+        @apply border-gray-500
+    }
+
+    .bor-neutral {
+        @apply border-neutral-500
+    }
+
+    .bor-black {
+        @apply border-black
+    }
+
+    .focus-placeholder {
+        @apply top-[8px] bg-white text-[12px] h-[14px] w-fit px-1 text-center text-black absolute ml-[10px] transition-all
+    }
+
+    .blur-placeholder {
+        @apply absolute ml-[10px] clr-slate transition-all italic top-[22px]
+    }
+
+    .focus-field {
+        @apply relative p-5
+    }
 }
 
