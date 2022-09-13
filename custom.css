@@ -454,5 +454,21 @@
     .focus-field {
         @apply relative p-5
     }
+
+    .flash-notice, .flash-danger, .flash-success {
+        @apply px-[5px] py-[10px] text-[18px] min-w-[300px] text-center rounded-lg fixed left-0 right-0 max-w-[700px] mx-[auto] w-fit top-[30px] z-10
+    }
+
+    .flash-notice {
+        @apply btn-info
+    }
+
+    .flash-danger {
+        @apply btn-danger
+    }
+
+    .flash-success {
+        @apply btn-success
+    }
 }
 

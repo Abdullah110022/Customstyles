@@ -16,7 +16,8 @@ Contains custom CSS styles and JS styles needed for the project.
 | bg-(color) | for background, color can be (success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral/black) |
 | bor-(color) | for border color, color can be (success/danger/info/orange/amber/green/emerald/teal/primary/sky/blue/fuchsia/purple/violet/pink/rose/slate/secondary/neutral/black) |
 | focus-field | it is assigned by default to the parent div of input element using stimulus controller for placeholder to work |
-| (blur/focus)-placeholder | necessary styling which is applied on the placeholder when input tag is clicked, focus-placeholder runs when input tag is focused and blur runs the same way |
+| (blur/focus)-placeholder | necessary styling which is applied on the span and make it placeholder when input tag is clicked, focus-placeholder runs when input tag is focused and blur runs the same way |
+| flash-(notice/danger/success) | adds necessary styling to the flash message container div |
 
 ## JS
 
